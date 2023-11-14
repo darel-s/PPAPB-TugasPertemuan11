@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<ApiResponse>, t: Throwable) {
-                // Handle failure
+                  t.printStackTrace()
             }
         })
     }
